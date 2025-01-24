@@ -1,0 +1,73 @@
+// Data object with form values, including the new fields
+const formData = {
+    ghl_api_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhdGlvbl9pZCI6Ik9VcTZMWDkwNE5VbHp1N0FyVmEiLCJ2ZXJzaW9uIjoxLCJpYXQiOjE3MTU3NzU4MzYzODcsInN1YiI6IkRQUmZTbU8xV2FXcTJaMUp2V3QifQ.IKHhIX8jKmHVhGTxJcNyx6wFO3tlDuzgqK9yyQscTpY",
+    pipeline_id: "8Qb1AaPqVNDZMBRlkyMn  ",
+    web_quote_leads_stage_id: "2cd985bc-e32f-4b80-a1e9-1d51d64392e8  ",
+    ghl_service_type: "P7KZuBRqWXNiMlF5kOqT  ",
+    ghl_storage_location: "5n7LPtTk6RmLe867YRKg  ",
+    ghl_origin_address: "yIuqsEGr9nHugHDH6PD7  ",
+    ghl_origin_city: "OReKuVH8swRbmQFGsMwZ  ",
+    ghl_origin_state: "kpau3Q7fhNz06QWLRfgH  ",
+    ghl_origin_zip: "HmGKXwljM5JAo6UWsJqP  ",
+    ghl_destination_city: "Xwt5cLeFimTIq5hqMqNz  ",
+    ghl_destination_state: "7mGDtpKFoSXZnM5JD9Gk  ",
+    ghl_destination_zip: "nv7U2WmKfbqTCDXUtJuN  ",
+    ghl_qty_months: "mRBJUU9XTPxmyYKqms5Z  ",
+    ghl_qty_12: "KYqLXVc6MSqTFqgcNPeK  ",
+    ghl_qty_16: "rdwMvXJHC9xs7RcfgVxk  ",
+    ghl_qty_delivery_empty: "uQK6LhjSQl0MNqpkWGGI  ",
+    ghl_qty_curb_to_curb: "krRYBfk89XwtvNQoHzM4  ",
+    ghl_qty_redelivery_wh: "qqwW5WvezzxDCwFb7CrP  ",
+    ghl_qty_return_empty: "pm4eeC2lqmMhTqjEqhwK  ",
+    ghl_12_foot_unit_price: "G1Q8zt201e5RTVkGLDM4  ",
+    ghl_16_foot_unit_price: "QoYKZ0WxFkV1WYoyv0O7  ",
+    ghl_delivery_empty_price: "7RkpK3hhqf2pgPuY0Po  ",
+    ghl_curbtocurb_total: "WW3SimchjYFAMK2XeiqQ  ",
+    ghl_redelivery_wh_price: "sdNLghPyzaruLfKJI9WK  ",
+    ghl_return_empty_price: "JKlSBQ3Fzv9Y531jgNkQ  ",
+    ghl_12_foot_rental_price: "p0lxwXrimqyomRa4mFV3  ",
+    ghl_16_foot_rental_price: "8kgx9jL5CT8J9mFXoTUp  ",
+    ghl_total_return_empty: "UaBGZM4nWENpG8Lm3qv  ",
+    ghl_total_delivery_empty: "egXa9skog3Qh2I03c5zN  ",
+    ghl_subtotal_cost: "FFDRc8fizHDfHODLMByD  ",
+    ghl_total_cost: "IzjDXvJBgFmSzMB4AYYQ  ",
+    ghl_origin_mile: "zPliPyXTpmg13qrzo0q1  ",
+    ghl_destination_mile: "cVh59zam9R9SU4djmApf  ",
+    ghl_origin_time: "yplust9Kh6LObcyssr7J  ",
+    ghl_destination_time: "pOgLSDftlaauLs60VZjE  ",
+    ghl_date_requested: "mbUffETgOKhNVTapFp8e  ",
+    ghl_12_foot_unitprice_wh: "Sn3BcTH7lbTPX94FKt5t  ",
+    ghl_16_foot_unitprice_wh: "6GG5d6kQtnHvUlHRruQ1  ",
+    ghl_destination_door_position: "91lehknUly6z2R9jLRQR  ",
+    ghl_wp_post_id: "FP7pbNTrwP59tbLMHsN1  ",
+    ghl_de_rate: "y3Rw3rmsqfd0VFscP3Hh  ",
+    ghl_re_rate: "FLSwOFQEOpM3GeEX0mBO  ",
+    ghl_quote_id: "k5N7Zvg3zZs0CSi6xTFx  ",
+    ghl_returnfull_to_whqty: "mQpx3DoNQFvLT8KuG2rb  ",
+    ghl_returnfull_towh_unit_price: "tSZOnSjkqVQHAqvkHqad  ",
+    ghl_total_returnfull_towh_price: "P4xxMwQitSHgDlDJUqfb  ",
+    ghl_redelivery_fromwh_cost: "J0GHLY8q7fkB0khW42d9  ",
+    ghl_redelivery_fromwh_cost_total: "Gj4T9Z6BVOmeavuhrXKO  ",
+    ghl_promocode: "VfwKczaaglE5KNQ2WUp9  ",
+    ghl_promocode_discount: "Zn2j0mCI7gmxouLJRyxR  ",
+    ghl_promocode_description: "SYt9N3ZOWLo7b1xoR3jN  ",
+    ghl_curbtocurb_rate: "zUL1mCggLTJTJqFC3mQA  ",
+    ghl_pricingrule_description: "UfNQPMqoUBOGnKxeTx8v  ",
+    ghl_productlist_withqty: "9VYRsi0Z3avS79YLN19z  ",
+    ghl_accessorieslist_withqty: "jtzaM7ILZpQSANZGYd3M  ",
+    ghl_damage_waiver_details: "iGzyU1vN9HK4on9eMvfe  ",
+    ghl_contents_coverage_details: "LKwphLIaZfnb45cpZG8Z"
+};
+
+// Function to fill the form dynamically
+function fillForm(data) {
+    Object.entries(data).forEach(([key, value]) => {
+        const inputElement = document.querySelector(`input[name="${key}"]`);
+        if (inputElement) {
+            inputElement.value = value;
+        }
+    });
+}
+
+// Call the function with your form data
+fillForm(formData);

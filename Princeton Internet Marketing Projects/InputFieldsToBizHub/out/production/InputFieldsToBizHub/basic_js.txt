@@ -1,0 +1,73 @@
+// Data object with form values, including the new fields
+const formData = {
+    ghl_api_key: "INSERT",
+    pipeline_id: "INSERT",
+    web_quote_leads_stage_id: "INSERT",
+    ghl_service_type: "INSERT",
+    ghl_storage_location: "INSERT",
+    ghl_origin_address: "INSERT",
+    ghl_origin_city: "INSERT",
+    ghl_origin_state: "INSERT",
+    ghl_origin_zip: "INSERT",
+    ghl_destination_city: "INSERT",
+    ghl_destination_state: "INSERT",
+    ghl_destination_zip: "INSERT",
+    ghl_qty_months: "INSERT",
+    ghl_qty_12: "INSERT",
+    ghl_qty_16: "INSERT",
+    ghl_qty_delivery_empty: "INSERT",
+    ghl_qty_curb_to_curb: "INSERT",
+    ghl_qty_redelivery_wh: "INSERT",
+    ghl_qty_return_empty: "INSERT",
+    ghl_12_foot_unit_price: "INSERT",
+    ghl_16_foot_unit_price: "INSERT",
+    ghl_delivery_empty_price: "INSERT",
+    ghl_curbtocurb_total: "INSERT",
+    ghl_redelivery_wh_price: "INSERT",
+    ghl_return_empty_price: "INSERT",
+    ghl_12_foot_rental_price: "INSERT",
+    ghl_16_foot_rental_price: "INSERT",
+    ghl_total_return_empty: "INSERT",
+    ghl_total_delivery_empty: "INSERT",
+    ghl_subtotal_cost: "INSERT",
+    ghl_total_cost: "INSERT",
+    ghl_origin_mile: "INSERT",
+    ghl_destination_mile: "INSERT",
+    ghl_origin_time: "INSERT",
+    ghl_destination_time: "INSERT",
+    ghl_date_requested: "INSERT",
+    ghl_12_foot_unitprice_wh: "INSERT",
+    ghl_16_foot_unitprice_wh: "INSERT",
+    ghl_destination_door_position: "INSERT",
+    ghl_wp_post_id: "INSERT",
+    ghl_de_rate: "INSERT",
+    ghl_re_rate: "INSERT",
+    ghl_quote_id: "INSERT",
+    ghl_returnfull_to_whqty: "INSERT",
+    ghl_returnfull_towh_unit_price: "INSERT",
+    ghl_total_returnfull_towh_price: "INSERT",
+    ghl_redelivery_fromwh_cost: "INSERT",
+    ghl_redelivery_fromwh_cost_total: "INSERT",
+    ghl_promocode: "INSERT",
+    ghl_promocode_discount: "INSERT",
+    ghl_promocode_description: "INSERT",
+    ghl_curbtocurb_rate: "INSERT",
+    ghl_pricingrule_description: "INSERT",
+    ghl_productlist_withqty: "INSERT",
+    ghl_accessorieslist_withqty: "INSERT",
+    ghl_damage_waiver_details: "INSERT",
+    ghl_contents_coverage_details: "INSERT"
+};
+
+// Function to fill the form dynamically
+function fillForm(data) {
+    Object.entries(data).forEach(([key, value]) => {
+        const inputElement = document.querySelector(`input[name="${key}"]`);
+        if (inputElement) {
+            inputElement.value = value;
+        }
+    });
+}
+
+// Call the function with your form data
+fillForm(formData);
